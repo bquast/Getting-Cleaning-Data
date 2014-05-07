@@ -10,7 +10,7 @@ file.url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.
 file.dest <- 'balt.rest.xml'
 
 # download from the URL
-download.file(file.url, file.dest, method='curl' )
+download.file(file.url, file.dest, method='curl')
 
 # load the XML package
 library(XML)
