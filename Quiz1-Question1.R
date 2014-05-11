@@ -13,7 +13,7 @@ file.dest <- 'ACS.csv'
 download.file(file.url, file.dest, method='curl' )
 
 # read the data
- ACS <- read.csv('ACS.csv')
+ACS <- read.csv('ACS.csv')
 
 # tabulate the value variable (VAL)
 table(ACS$VAL)
